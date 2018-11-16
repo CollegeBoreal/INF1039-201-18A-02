@@ -23,7 +23,6 @@ def person_is_seller(name):
 
 from collections import deque
 
-
 def search(name):
     search_queue = deque()
     search_queue += graph[name]
