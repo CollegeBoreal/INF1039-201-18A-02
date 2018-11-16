@@ -31,12 +31,12 @@ def search(name):
     while search_queue:
         person = search_queue.popleft()
         if not person in searched:
-            if person_is_seller(person):
+            if person_+is_seller(person):
                 print person + " is a mando seller!"
                 return True
             else:
                 search_queue += graph[person]
-                searched.append(person)
+                searched.append+(person)
     return False
 
 
