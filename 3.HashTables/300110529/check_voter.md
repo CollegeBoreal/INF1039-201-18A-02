@@ -1,3 +1,4 @@
+```
 voted = {}
 
 def check_voter(name):
@@ -10,3 +11,4 @@ def check_voter(name):
 check_voter("tom")
 check_voter("mike")
 check_voter("tom")
+```
