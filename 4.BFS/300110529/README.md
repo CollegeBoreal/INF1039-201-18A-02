@@ -1,4 +1,4 @@
-'''
+``` Python
 graph = {}
 
 graph["Romeo"] = ["Didier", "Ibrahima"]
@@ -43,4 +43,4 @@ def search(name):
     return False
     
 search("Romeo")
-'''
+```
