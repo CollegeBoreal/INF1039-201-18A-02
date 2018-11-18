@@ -1,6 +1,5 @@
 ```
 graph = {}
-
 graph["ROMEO"] = ["Didier", "Ibrahima"]
 graph["Didier"] = ["Olaiton", "Abas"]
 graph["Ibrahima"] = ["Dane", "Cheik"]
