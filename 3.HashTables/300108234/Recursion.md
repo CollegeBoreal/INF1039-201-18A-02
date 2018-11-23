@@ -1,12 +1,78 @@
-```
-def factorial(n):
-    print("factorial has been called with n = " + str(n))
+``` python 
+def pascal(n):
     if n == 1:
-        return 1
+        return [1]
     else:
-        res = n * factorial(n-1)
-        print("intermediate result for ", n, " * factorial(" ,n-1, "): ",res)
-        return res	
+        line = [1]
+        previous_line = pascal(n-1)
+        for i in range(len(previous_line)-1):
+            line.append(previous_line[i] + previous_line[i+1])
+        line += [1]
+    return line
 
-print(factorial(5))
+print(pascal(1))
+
+
+
+
+def pascal(n):
+    if n == 1:
+        return [1]
+    else:
+        line = [1]
+        previous_line = pascal(n-1)
+        for i in range(len(previous_line)-1):
+            line.append(previous_line[i] + previous_line[i+1])
+        line += [1]
+    return line
+
+print(pascal(2))
+
+
+
+
+def pascal(n):
+    if n == 1:
+        return [1]
+    else:
+        line = [1]
+        previous_line = pascal(n-1)
+        for i in range(len(previous_line)-1):
+            line.append(previous_line[i] + previous_line[i+1])
+        line += [1]
+    return line
+
+print(pascal(3))
+
+
+
+
+def pascal(n):
+    if n == 1:
+        return [1]
+    else:
+        line = [1]
+        previous_line = pascal(n-1)
+        for i in range(len(previous_line)-1):
+            line.append(previous_line[i] + previous_line[i+1])
+        line += [1]
+    return line
+
+print(pascal(4))
+
+
+
+
+def pascal(n):
+    if n == 1:
+        return [1]
+    else:
+        line = [1]
+        previous_line = pascal(n-1)
+        for i in range(len(previous_line)-1):
+            line.append(previous_line[i] + previous_line[i+1])
+        line += [1]
+    return line
+
+print(pascal(5))
 ```
