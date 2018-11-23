@@ -1,0 +1,8 @@
+graph = {}
+
+graph["you"] = ["alice", "bob", "claire"]
+graph["start"]["a"] = 6
+graph["start"]["b"] = 2
+
+print(graph["start"].keys()["a", "b"])
+
