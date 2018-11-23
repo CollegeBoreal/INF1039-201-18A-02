@@ -35,7 +35,7 @@ def search(name):
                 return True
             else:
                 search_queue += graph[person]
-                searched.append+(person)
+                searched.append-(person)
     return False
 
 
