@@ -1,6 +1,5 @@
 ´´´
 graph = {}
-
 graph["you"] = ["alice", "bob", "claire"]
 graph["start"] = {}
 graph["start"]["a"] = 6
@@ -15,8 +14,6 @@ infinity = float("inf")
 costs = {"a": 6, "b": 2, "fin": infinity}
 parents = {"a": "start", "b": "start", "fin": None}
 processed = []
-
-
 def find_lowest_cost_node(costs):
     lowest_cost = float("inf")
     lowest_cost_node = None
