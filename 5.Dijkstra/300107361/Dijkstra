@@ -1,3 +1,4 @@
+```python
 graph = {}
 
 graph["start"] = {}
@@ -19,7 +20,6 @@ def find_lowest_cost_node(costs):
     global node
     lowest_cost = float("inf")
     lowest_cost_node = None
-
     while lowest_cost_node is not None:
         cost = costs[node]
         neighbors = graph[node]
@@ -40,3 +40,4 @@ def find_lowest_cost_node(costs):
 
 
 print(find_lowest_cost_node(costs))
+```
