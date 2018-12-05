@@ -23,7 +23,7 @@
 
 ## Legende
 
-:one: - [1.SelectionSort](1.SelectionSort)
+:one: - [1.SelectionSort](../1.SelectionSort)
 
 :two: - 
 
