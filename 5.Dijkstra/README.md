@@ -8,11 +8,11 @@ Ce devoir consiste à écrire le code du chapitre 7.
 
 * Creer son propre repertoire avec son :id: en ajoutant le fichier `README.md`
 
-* Creer le code source dans le fichier `README.md`
+* Créer le code source dans le fichier `README.md`
 
 ## :one: Implémentation :palm_tree:
 
-* Ecrire le code se trouvant à la page 131-139
+* Ecrire le code se trouvant de la page 131 à 139
 
 
 ## :two: La recherche :mag:
