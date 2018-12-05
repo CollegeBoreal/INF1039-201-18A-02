@@ -10,7 +10,7 @@ Ce devoir consiste à écrire le code du chapitre 1.
 
 * Créer le code source dans le fichier `README.md`
 
-## :one: Implémentation :palm_tree:
+## :one: Implémentation :code:
 
 * Ecrire le code se trouvant de la page 35
 
