@@ -12,7 +12,7 @@ Ce devoir consiste à écrire le code du chapitre 1.
 
 ## :one: Implémentation :computer:
 
-* Ecrire le code se trouvant de la page 35
+* Ecrire le code se trouvant à la page 35
 
 
 ## :two: Tester le code Python :snake: avec 
