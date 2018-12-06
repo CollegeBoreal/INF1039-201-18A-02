@@ -1,8 +1,8 @@
-# 5.Dijkstra
+# 6.Greedy
 
-## Dijkstra's Algorithm
+## Set-Covering Problem
 
-Ce devoir consiste à écrire le code du chapitre 7.
+Ce devoir consiste à écrire le code du chapitre 8.
 
 ## :zero: Répertoire :page_facing_up:
 
@@ -10,14 +10,14 @@ Ce devoir consiste à écrire le code du chapitre 7.
 
 * Créer le code source dans le fichier `README.md`
 
-## :one: Implémentation :palm_tree:
+## :one: Implémentation :computer:
 
-* Ecrire le code se trouvant de la page 131 à 139
+* Ecrire le code se trouvant de la page 148 à 152
 
 
 ## :two: La recherche :mag:
 
-* Imprimer le cout total optimal (i.e. imprimer le cout du noeud 'fin')
+* Imprimer le resultat optimal (i.e. imprimer les stations de radios couvertes)
 
 
 ## :four: Tester le code Python :snake: avec 

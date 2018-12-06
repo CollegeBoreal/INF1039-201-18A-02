@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 graph = {"start": {}}
+=======
+```python
+graph = {}
+
+graph["start"] = {}
+>>>>>>> b6a1cd88c272150ace850e2d6e7be0ee5ea04827
 graph["start"]["a"] = 6
 graph["start"]["b"] = 2
 graph["a"] = {}
@@ -15,6 +22,20 @@ parents = {"a": "start", "b": "start", "fin": None}
 def find_lowest_cost_node(costs):
     lowest_cost = float("inf")
     lowest_cost_node = None
+<<<<<<< HEAD
+=======
+    while lowest_cost_node is not None:
+        cost = costs[node]
+        neighbors = graph[node]
+        for n in neighbors.keys():
+            new_cost = cost + neighbors[n]
+            if costs[n] > new_cost:
+                costs[n] = new_cost
+                parents[n] = node
+        processed.append(node)
+        node = find_lowest_cost_node(costs)
+
+>>>>>>> b6a1cd88c272150ace850e2d6e7be0ee5ea04827
     for node in costs:
         cost = costs[node]
         if cost < lowest_cost and node not in processed:
@@ -37,3 +58,4 @@ while node is not None:
     node = find_lowest_cost_node(costs)
 
 print(find_lowest_cost_node(costs))
+```
