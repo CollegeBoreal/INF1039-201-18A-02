@@ -1,4 +1,4 @@
-```
+```python
 voted = {}
 
 def check_voter(name):
@@ -7,3 +7,7 @@ def check_voter(name):
   else:
     voted[name] = True
     print "let them vote"
+
+check_voter("Tom")
+check_voter("Mike")
+check_voter("Mike")
