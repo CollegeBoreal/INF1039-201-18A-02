@@ -11,3 +11,4 @@ def check_voter(name):
 check_voter("Tom")
 check_voter("Mike")
 check_voter("Mike")
+ 
