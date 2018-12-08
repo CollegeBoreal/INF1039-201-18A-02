@@ -1,3 +1,4 @@
+```
 graph = {"start": {}}
 graph["start"]["a"] = 6
 graph["start"]["b"] = 2
@@ -37,3 +38,4 @@ while node is not None:
     node = find_lowest_cost_node(costs)
 
 print(costs["fin"]) 
+```
