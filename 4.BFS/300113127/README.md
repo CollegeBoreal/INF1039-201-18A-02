@@ -1,5 +1,6 @@
 ```
 graph = {}
+
 graph["Romeo"] = ["Didier", "Ibrahima"]
 graph["Didier"] = ["Olaitan", "Abas"]
 graph["Ibrahima"] = ["Dane", "Cheik"]
@@ -15,14 +16,17 @@ graph["Armand"] = []
 graph["Fabrice"] = []
 graph["Djouma"] = []
 graph["Etienne"] = []
+
 def person_is_seller(name):
     if (name == "Armand"):
         return True
     else :
         return False
-        from collections import deque
+        
+from collections import deque
 search_queue = deque()
 search_queue += graph["Romeo"]
+
 def search(name):
     search_queue = deque()
     search_queue += graph[name]
@@ -37,5 +41,6 @@ def search(name):
                 search_queue += graph[person]
                 searched.append(person)
     return False
-search("Romeo")  
+    
+search("Romeo")
 ```        
