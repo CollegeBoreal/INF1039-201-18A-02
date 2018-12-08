@@ -1,6 +1,5 @@
 ```
 graph = {}
-
 graph["you"] = ["alice", "bob", "claire"]
 graph["start"] = {}
 graph["start"]["a"] = 6
