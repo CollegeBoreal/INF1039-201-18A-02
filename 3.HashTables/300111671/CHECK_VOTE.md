@@ -1,4 +1,3 @@
-```
 voted = {}
 
 def check_voter(name):
@@ -6,9 +5,9 @@ def check_voter(name):
     print "kick them out"
   else:
     voted[name] = True
-    print "let them vote!"
-    
-check_voter("tom")
-check_voter("mike")
-check_voter("mike")
-```
+    print "let them vote"
+
+check_voter("Tom")
+check_voter("Mike")
+check_voter("Mike")
+ 
