@@ -1,5 +1,6 @@
 ```
 graph = {}
+
 graph["you"] = ["alice", "bob", "claire"]
 graph["start"] = {}
 graph["start"]["a"] = 6
@@ -37,3 +38,16 @@ def find_lowest_cost_node(costs):
             lowest_cost_node = node
     return lowest_cost_node
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
