@@ -1,3 +1,4 @@
+```
 graph = {}
 graph["Romeo"] = ["Didier", "Ibrahima"]
 graph["Didier"] = ["Olaiton", "Abbas"]
@@ -29,3 +30,4 @@ while search_queue:
     else:
         search_queue += graph[person]
         print False
+```
