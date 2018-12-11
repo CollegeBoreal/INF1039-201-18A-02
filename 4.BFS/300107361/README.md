@@ -1,4 +1,3 @@
-```Python
 graph = {}
 
 graph["Romeo"] = ["Didier", "Ibrahima"]
@@ -42,5 +41,4 @@ def search(name):
                 searched.append(person)
     return False
     
-search("Romeo")    
-```
+search("Romeo") 
