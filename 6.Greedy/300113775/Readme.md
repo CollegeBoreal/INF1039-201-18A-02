@@ -1,3 +1,4 @@
+```
 states_needed = set(["mt", "wa", "or", "id", "nv", "ut", "ca", "az"])
 
 stations = { }
@@ -20,3 +21,4 @@ while states_needed:
     final_stations.add(best_station)
     
 print final_stations
+```
