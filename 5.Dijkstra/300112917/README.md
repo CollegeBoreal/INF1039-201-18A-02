@@ -159,4 +159,3 @@ if __name__ == '__main__':
     path = [target.get_id()]
     shortest(target, path)
     print 'The shortest path : %s' %(path[::-1])
-    ```
