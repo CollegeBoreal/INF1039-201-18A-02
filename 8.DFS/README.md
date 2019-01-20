@@ -2,7 +2,7 @@
 
 https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
 
-```
+```python
 graph = {'Romeo': set(['Didier', 'Ibrahima']),
          'Didier': set(['Olaitan', 'Abbas']),
          'Ibrahima': set(['Dane', 'Cheik']),
